@@ -2,3 +2,13 @@ Thu, Mar 27, 2025 10:06:51 PM:
  tests:  0|6
 total_score: 0/70
 25021aa
+Thu, Mar 27, 2025 10:08:47 PM: 
+ list.c | 6 +++++-
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+list.c: In function 'createList':
+list.c:34:9: error: 'List {aka struct List}' has no member named 'size'
+     list->size = 0;
+         ^~
+Compilation failed
+e228779
