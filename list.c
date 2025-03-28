@@ -40,10 +40,10 @@ void * firstList(List * list)
 {
     
     if (list->head != NULL) 
- {   
+    
         list->current = list->head;
     
-}
+
     
     
 }
