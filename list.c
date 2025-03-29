@@ -151,6 +151,7 @@ void * popCurrent(List * list) {
         {
             list->head=aux->next;
         }
+        return data;
 
 
 
