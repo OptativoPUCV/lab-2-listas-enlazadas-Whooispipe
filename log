@@ -151,3 +151,14 @@ Fri, Mar 28, 2025 10:31:15 PM:
  tests:  10|2
 total_score: 45/70
 6243b0a
+Fri, Mar 28, 2025 10:32:59 PM: 
+ list.c | 19 +++++++++++++++++++
+ 1 file changed, 19 insertions(+)
+In file included from test.c:5:0:
+list.c: In function 'pushBack':
+list.c:105:12: error: unused variable 'nuevo' [-Werror=unused-variable]
+     Node * nuevo= createNode(data);
+            ^~~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+bacf7f6
