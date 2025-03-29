@@ -226,3 +226,14 @@ Fri, Mar 28, 2025 11:29:00 PM:
  tests:  11|1
 total_score: 55/70
 f50ae21
+Fri, Mar 28, 2025 11:33:03 PM: 
+ list.c | 16 ++++++++++++++++
+ 1 file changed, 16 insertions(+)
+In file included from test.c:5:0:
+list.c: In function 'popCurrent':
+list.c:145:16: error: unused variable 'data' [-Werror=unused-variable]
+         void * data=aux->data;
+                ^~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+3e9725f
