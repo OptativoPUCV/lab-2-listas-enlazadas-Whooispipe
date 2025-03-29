@@ -155,6 +155,7 @@ void * popCurrent(List * list) {
         free(temp);
         return data;
     }
+    return NULL;
 
 }
 
