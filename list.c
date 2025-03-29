@@ -144,12 +144,16 @@ void * popCurrent(List * list) {
         void * data = temp->data;
         if (temp->prev != NULL) {
             temp->prev->next = temp->next;
-        } else {
+        } 
+        else 
+        {
             list->head = temp->next;
         }
-        if (temp->next != NULL) {
+        if (temp->next != NULL) 
+        {
             temp->next->prev = temp->prev;
-        } else {
+        } else 
+        {
             list->tail = temp->prev;
         }
         free(temp);
